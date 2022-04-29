@@ -45,6 +45,7 @@ apt-get update && apt-get install lz4
 WORKSPACE=/root/project
 
 cd $WORKSPACE
+git config --global --add safe.directory "${WORKSPACE}"
 
 # shellcheck disable=SC2166
 if [[ "$CIRCLE_BRANCH" = release || -n "$CIRCLE_TAG" || -n "$FORCE_RELEASE" || "$(git tag --points-at HEAD 2>/dev/null)" == v* ]]

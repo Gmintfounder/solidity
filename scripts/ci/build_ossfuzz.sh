@@ -2,6 +2,9 @@
 set -ex
 
 ROOTDIR="/root/project"
+
+git config --global --add safe.directory "${ROOTDIR}"
+
 BUILDDIR="${ROOTDIR}/build"
 mkdir -p "${BUILDDIR}" && mkdir -p "$BUILDDIR/deps"
 

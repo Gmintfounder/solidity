@@ -4,6 +4,10 @@ set -ex
 ROOTDIR="$(dirname "$0")/../.."
 cd "${ROOTDIR}"
 
+ABSOLUTE_PATH=$(pwd)
+
+git config --global --add safe.directory "${ABSOLUTE_PATH}"
+
 # shellcheck disable=SC2166
 if [ "$CIRCLE_BRANCH" = release -o -n "$CIRCLE_TAG" -o -n "$FORCE_RELEASE" ]
 then
