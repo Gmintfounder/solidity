@@ -1333,6 +1333,7 @@
     },
     "0.6.10": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1343,6 +1344,7 @@
     },
     "0.6.11": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1353,6 +1355,7 @@
     },
     "0.6.12": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1455,6 +1458,7 @@
     },
     "0.6.9": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1466,6 +1470,7 @@
     },
     "0.7.0": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1476,6 +1481,7 @@
     },
     "0.7.1": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1487,6 +1493,7 @@
     },
     "0.7.2": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1497,6 +1504,7 @@
     },
     "0.7.3": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching",
@@ -1506,6 +1514,7 @@
     },
     "0.7.4": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1514,6 +1523,7 @@
     },
     "0.7.5": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1522,6 +1532,7 @@
     },
     "0.7.6": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1530,6 +1541,7 @@
     },
     "0.8.0": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1538,6 +1550,7 @@
     },
     "0.8.1": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1545,27 +1558,34 @@
         "released": "2021-01-27"
     },
     "0.8.10": {
-        "bugs": [],
+        "bugs": [
+            "DataLocationChange"
+        ],
         "released": "2021-11-09"
     },
     "0.8.11": {
         "bugs": [
+            "DataLocationChange",
             "AbiEncodeCallLiteralAsFixedBytesBug"
         ],
         "released": "2021-12-20"
     },
     "0.8.12": {
         "bugs": [
+            "DataLocationChange",
             "AbiEncodeCallLiteralAsFixedBytesBug"
         ],
         "released": "2022-02-16"
     },
     "0.8.13": {
-        "bugs": [],
+        "bugs": [
+            "DataLocationChange"
+        ],
         "released": "2022-03-16"
     },
     "0.8.2": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory",
             "KeccakCaching"
@@ -1574,6 +1594,7 @@
     },
     "0.8.3": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables",
             "ABIDecodeTwoDimensionalArrayMemory"
         ],
@@ -1581,37 +1602,44 @@
     },
     "0.8.4": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables"
         ],
         "released": "2021-04-21"
     },
     "0.8.5": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables"
         ],
         "released": "2021-06-10"
     },
     "0.8.6": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables"
         ],
         "released": "2021-06-22"
     },
     "0.8.7": {
         "bugs": [
+            "DataLocationChange",
             "SignedImmutables"
         ],
         "released": "2021-08-11"
     },
     "0.8.8": {
         "bugs": [
+            "DataLocationChange",
             "UserDefinedValueTypesBug",
             "SignedImmutables"
         ],
         "released": "2021-09-27"
     },
     "0.8.9": {
-        "bugs": [],
+        "bugs": [
+            "DataLocationChange"
+        ],
         "released": "2021-09-29"
     }
 }

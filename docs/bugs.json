@@ -1,5 +1,16 @@
 [
     {
+        "uid": "SOL-2022-3",
+        "name": "DataLocationChange",
+        "summary": "It was possible to override a function and changing the data location of the parameters or return variables from ``calldata`` to ``memory`` and vice-versa. This caused invalid code to be generated when calling such a function internally.",
+        "description": "TODO",
+        "link": "TODO",
+        "introduced": "0.6.9",
+        "fixed": "0.8.14",
+        "severity": "very low"
+
+    },
+    {
         "uid": "SOL-2022-1",
         "name": "AbiEncodeCallLiteralAsFixedBytesBug",
         "summary": "Literals used for a fixed length bytes parameter in ``abi.encodeCall`` were encoded incorrectly.",
