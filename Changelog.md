@@ -1,5 +1,9 @@
 ### 0.8.14 (unreleased)
 
+Important Bugfixes:
+ * Type Checker: Only allow changing data location between ``memory`` and ``calldata`` when overriding external functions.
+
+
 Language Features:
 
 
